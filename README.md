@@ -21,8 +21,8 @@ or make sure you have the following packages installed:
 * matplotlib
 * numpy
 * pandas
-* python 3.4
-* torch 1.3.5+cu100
+* python 3.6
+* torch 1.4.0+cu100
 * torch-cluster 1.4.7
 * torch-geometric 1.6.2
 * torch-scatter 1.5.3
