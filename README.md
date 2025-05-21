@@ -33,7 +33,7 @@ or make sure you have the following packages installed:
 2. Extract and preprocess data set
 
 Set `data_set` to `Twitter`(https://www.dropbox.com/s/7ewzdrbelpmrnxu/rumdetect2017.zip?dl=0) or `Weibo`(https://www.dropbox.com/s/46r50ctrfa0ur1o/rumdect.zip?dl=0).
-. More information about this dataset is available here 'https://github.com/majingCUHK/Rumor_GAN'.
+
 ```
 cd data/script
 python extract_data.py
