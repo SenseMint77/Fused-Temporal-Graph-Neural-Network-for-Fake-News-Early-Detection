@@ -32,9 +32,8 @@ or make sure you have the following packages installed:
   
 2. Extract and preprocess data set
 
-Set `data_set` to `liar_dataset` or `FakeNewsNet`(https://github.com/KaiDMML/FakeNewsNet).
-If you would like to fine tune BERT, set `with_bert_finetuning = True` in `extract_data.py`. 
-
+Set `data_set` to `Twitter`(https://www.dropbox.com/s/7ewzdrbelpmrnxu/rumdetect2017.zip?dl=0) or `Weibo`(https://www.dropbox.com/s/46r50ctrfa0ur1o/rumdect.zip?dl=0).
+. More information about this dataset is available here 'https://github.com/majingCUHK/Rumor_GAN'.
 ```
 cd data/script
 python extract_data.py
@@ -49,7 +48,6 @@ python extract_data.py
 
 4. Run model from root
 ```
-python main.py
+python main.py --dataset weibo --model completed --cuda 1 --batch 32 --epoch 5 --lr 0.001
 ```
 
-Once complete, a plot of training loss in the K-fold cross validation is generated in `loss.png`.
