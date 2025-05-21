@@ -1,6 +1,6 @@
 # Fused-Temporal-Graph-Neural-Network-for-Fake-News-Early-Detection
 Fused-Temporal Graph Neural Network for Fake News Early Detection
-# Fast_Training_on_Dynamic_Heterogeneous_Information_Network_for_Fake_News_Detection
+# Fused-Temporal-Graph-Neural-Network-for-Fake-News-Early-Detection
 
 1. Install packages from root with conda. 
 
