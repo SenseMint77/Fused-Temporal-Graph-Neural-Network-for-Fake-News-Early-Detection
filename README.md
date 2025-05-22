@@ -39,14 +39,7 @@ cd data/script
 python extract_data.py
 ```
 
-3. Change parameters in `main.py`:
-
-  `with_author_test = True` to include author information during test.
-  `data_set` to `liar_dataset` or `FakeNewsNet`.
-  `version` to `no_finetuning` or `with_finetuning`.
-  `model_type` to `bipartite` or `heterogeneous`. 
-
-4. Run model from root
+3. Run model from root
 ```
 python main.py --dataset weibo --model completed --cuda 1 --batch 32 --epoch 5 --lr 0.001
 ```
